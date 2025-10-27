@@ -35,10 +35,10 @@ function DecisionMakerContent({ slug }: { slug: string }) {
 
   return (
     <div className="min-h-screen p-4 lg:p-8 max-w-6xl mx-auto">
-      <header className="bg-blue-50 border-b border-blue-200 py-2 px-4 mb-6 rounded-t-lg flex justify-between items-center">
+      <header className="bg-gray-900 border-b border-blue-200 py-2 px-4 mb-6 rounded-t-lg flex justify-between items-center">
         <Link
           href="/"
-          className="text-blue-900 hover:text-blue-500 font-bold flex items-center gap-1"
+          className="text-blue-600 hover:text-blue-500 font-bold flex items-center gap-1"
         >
           ⬅️ {t('allTools')}
         </Link>
@@ -59,7 +59,7 @@ function DecisionMakerContent({ slug }: { slug: string }) {
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
+              className="bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
             >
               {t('viewOnGitHub')}
             </Link>
@@ -69,7 +69,7 @@ function DecisionMakerContent({ slug }: { slug: string }) {
               href={youtubeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
+              className="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200"
             >
               {t('viewOnYoutube')}
             </Link>
